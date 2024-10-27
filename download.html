@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .preview-images img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="password"] {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .download-link {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .status-message {
+            font-size: 14px;
+            color: #333;
+            margin-top: 5px;
+        }
+        .description {
+            color: #666;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+<div class="container">
+    
+    <h2>3000+ Winning Products with Ready-made Video Ads</h2>
+    
+    <div class="preview-images">
+        <img src="image2.jpg" alt="Bundle Preview Image 2">
+    </div>
+    
+    <p class="description">Unlock a collection of 3000+ trending dropshipping products with video ads included!</p>
+    
+    <p>Please enter the password to access the download:</p>
+    <p>Password received on your email or mobile</p>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="checkPassword()">Proceed</button>
+    
+    <p id="status-message" class="status-message"></p>
+    
+    <a href="https://drive.google.com/u/0/uc?id=1MI-Ttz-nSZheVLhTp-WmPndsQoXwM1cQ&export=download" id="downloadLink" class="download-link" download>
+        Download file Now
+    </a>
+</div>
+
+<script>
+    function checkPassword() {
+        const passwordInput = document.getElementById("password").value;
+        const downloadLink = document.getElementById("downloadLink");
+        const statusMessage = document.getElementById("status-message");
+
+        // Updated password to "ddpass"
+        statusMessage.textContent = "Checking password...";
+        statusMessage.style.color = "#333";
+
+        setTimeout(() => {
+            if (passwordInput === "ddpass") {
+                downloadLink.style.display = "block";
+                statusMessage.textContent = "Password is correct. Preparing your download...";
+                statusMessage.style.color = "green";
+            } else {
+                statusMessage.textContent = "Incorrect password. Please try again.";
+                statusMessage.style.color = "red";
+                downloadLink.style.display = "none";
+            }
+        }, 1000); // Delay to show "Checking password..."
+    }
+</script>
+
+</body>
+</html>

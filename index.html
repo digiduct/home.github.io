@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Section</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+    <style>
+        /* Custom CSS */
+        .header-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .header-logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        .nav-link {
+            color: #000 !important; /* Set navigation link color to black */
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .show-more {
+            cursor: pointer;
+            color: #007bff;
+        }
+        .navbar-toggler {
+            border-color: transparent; /* Remove border */
+        }
+        .navbar-toggler .fas {
+            font-size: 1.5rem;
+            color: #000; /* Icon color */
+        }
+        /* Hide extra links on smaller screens */
+        @media (max-width: 768px) {
+            #extra-links {
+                display: none !important;
+            }
+            #show-more {
+                display: none;
+            }
+        }
+    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Modern Header Section -->
+    <header class="bg-light py-3 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo and Title -->
+            <a href="#" class="header-logo">
+                <img src="logo.jpg" alt="Logo">
+                digiduct
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="d-none d-md-flex align-items-center">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link" href="#"><i class="fas fa-store"></i> Shop</a>
+                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+                <div id="extra-links" class="d-flex d-none"> <!-- Start hidden -->
+                    <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
+                    <a class="nav-link" href="#"><i class="fas fa-blog"></i> Blog</a>
+                    <a class="nav-link" href="#"><i class="fas fa-headset"></i> Support</a>
+                </div>
+                <span id="show-more" class="show-more nav-link">Show More</span>
+            </nav>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i> <!-- Font Awesome Menu Icon -->
+            </button>
+        </div>
+
+        <!-- Collapsible Mobile Menu -->
+        <div class="collapse d-md-none" id="mobileMenu">
+            <div class="container">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link" href="#"><i class="fas fa-store"></i> Shop</a>
+                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+                <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
+                <a class="nav-link" href="#"><i class="fas fa-blog"></i> Blog</a>
+                <a class="nav-link" href="#"><i class="fas fa-headset"></i> Support</a>
+            </div>
+        </div>
+    </header>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('bg1.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .btn-custom {
+            background-color: #28a745;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unlock Access to 3000+ Best-Selling Dropshipping Products!</h1>
+            <p>Start your business or scale up with our complete product bundle.</p>
+            <button class="btn btn-custom"> <a href="p1.html">Get Instant Access!</a></button>
+        </div>
+    </section>
+    
+    <div class="text-center" style="padding: 50px 20px; background-color: #f8f9fa;">
+        <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">Featured Products</h2>
+        <p style="font-size: 1.2em; color: #666;">Discover our top-selling products below.</p>
+    </div>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .slider-container {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: opacity 0.5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .slide.active {
+            opacity: 1;
+            position: relative;
+        }
+
+        .indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: gray;
+            margin: 0 4px;
+            cursor: pointer;
+        }
+
+        .indicator.active {
+            background-color: black;
+        }
+    </style>
+
+
+    <!-- Slider Wrapper -->
+     <div class="relative w-full max-w-md overflow-hidden">
+        <div id="slider" class="slider-container">
+            <!-- Slide 1 -->
+            <div class="slide active bg-white rounded-lg shadow-md p-4">
+                <img src="image1.jpg" alt="Product Image 1" class="w-full h-45 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                    <p class="text-gray-600 text-sm">Shipping calculated at checkout</p>
+                    <div class="flex items-center mt-2">
+                        <div class="flex text-yellow-400">
+                            &#9733;&#9733;&#9733;&#9733;&#9734;
+                        </div>
+                        <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                    </div>
+                    <div class="mt-4">
+                        <span class="text-red-500 text-xl font-semibold">₹199</span>
+                        <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                        <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                        <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                    </div>
+                    <div class="mt-4">
+                        <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                          <a href="p1.html;" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide bg-white rounded-lg shadow-md p-4">
+                <img src="image2.jpg" alt="Product Image 2" class="w-full h-45 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                    <p class="text-gray-600 text-sm">Segment's 1st 48MP Sony AI Camera</p>
+                    <div class="flex items-center mt-2">
+                        <div class="flex text-yellow-400">
+                            &#9733;&#9733;&#9733;&#9733;&#9734;
+                        </div>
+                        <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                    </div>
+                    <div class="mt-4">
+                        <span class="text-red-500 text-xl font-semibold">₹199</span>
+                        <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                        <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                        <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                    </div>
+                    <div class="mt-4">
+                        <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                            <a href="p1.html" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide bg-white rounded-lg shadow-md p-4">
+                <img src="image3.jpg" alt="Product Image 3" class="w-full h-45 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                    <p class="text-gray-600 text-sm">Segment's 1st 48MP Sony AI Camera</p>
+                    <div class="flex items-center mt-2">
+                        <div class="flex text-yellow-400">
+                            &#9733;&#9733;&#9733;&#9733;&#9734;
+                        </div>
+                        <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                    </div>
+                    <div class="mt-4">
+                        <span class="text-red-500 text-xl font-semibold">₹199</span>
+                        <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                        <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                        <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                    </div>
+                    <div class="mt-4">
+                        <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                            <a href="p1.html" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <button onclick="prevSlide()" class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-600 hover:text-gray-800" aria-label="Previous Slide">
+            &#10094;
+        </button>
+        <button onclick="nextSlide()" class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-600 hover:text-gray-800" aria-label="Next Slide">
+            &#10095;
+        </button>
+
+        <!-- Indicators -->
+        <div class="flex justify-center mt-4">
+            <span onclick="goToSlide(0)" class="indicator bg-gray-400"></span>
+            <span onclick="goToSlide(1)" class="indicator bg-gray-400"></span>
+            <span onclick="goToSlide(2)" class="indicator bg-gray-400"></span>
+        </div>
+    </div>
+    
+    <!-- Product Display Container -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Product Card 1 -->
+        <div class="product-card bg-white rounded-lg shadow-md p-4">
+           <img src="image2.jpg" alt="Product Image 2" class="w-full h-45 object-cover rounded-t-lg">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                <p class="text-gray-600 text-sm">Segment's 1st 48MP Sony AI Camera</p>
+                <div class="flex items-center mt-2">
+                    <div class="flex text-yellow-400">
+                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                </div>
+                <div class="mt-4">
+                    <span class="text-red-500 text-xl font-semibold">₹199</span>
+                    <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                    <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                    <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                </div>
+                <div class="mt-4">
+                    <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                        <a href="p1.html" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card bg-white rounded-lg shadow-md p-4">
+            <img src="image2.jpg" alt="Product Image 2" class="w-full h-45 object-cover rounded-t-lg">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                <p class="text-gray-600 text-sm">Shipping calculated at checkout</p>
+                <div class="flex items-center mt-2">
+                    <div class="flex text-yellow-400">
+                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                </div>
+                <div class="mt-4">
+                    <span class="text-red-500 text-xl font-semibold">₹199</span>
+                    <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                    <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                    <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                </div>
+                <div class="mt-4">
+                    <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                        <a href="p1.html" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card bg-white rounded-lg shadow-md p-4">
+            <img src="image2.jpg" alt="Product Image 2" class="w-full h-45 object-cover rounded-t-lg">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">DROPSHIPPING MEGA BUNDLE! 3000+ Winning Products with Ready-made Video Ads</h2>
+                <p class="text-gray-600 text-sm">Shipping calculated at checkout</p>
+                <div class="flex items-center mt-2">
+                    <div class="flex text-yellow-400">
+                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(78 reviews)</span>
+                </div>
+                <div class="mt-4">
+                    <span class="text-red-500 text-xl font-semibold">₹199</span>
+                    <span class="text-gray-400 line-through ml-2">₹1,999</span>
+                    <span class="text-green-600 ml-2 text-sm">(21% off)</span>
+                    <p class="text-gray-600 text-sm mt-1">fast delivery <span class="font-semibold"></span></p>
+                </div>
+                <div class="mt-4">
+                    <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded">
+                       <a href="p1.html" style="display: inline-block; padding: 10px 20px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">buy now</a>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <section class="benefits-section" style="padding: 50px 20px; background-color: #e9ecef;">
+        <div class="container text-center">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">Why Choose Our Dropshipping Bundle?</h2>
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">Save Time on Research</h3>
+                        <p style="color: #666;">Access pre-vetted, high-demand products without spending hours searching.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">High-Profit Margins</h3>
+                        <p style="color: #666;">Our products offer excellent margins to maximize your profits.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">Seamless Integration</h3>
+                        <p style="color: #666;">Easily add products to any e-commerce platform for quick setup.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works Section -->
+    <section class="how-it-works" style="padding: 50px 20px; background-color: #f1f1f1;">
+        <div class="container text-center">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">How It Works</h2>
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <div style="font-size: 2em; color: #007bff; margin-bottom: 10px;">1</div>
+                        <h3 style="font-size: 1.5em; color: #333;">Choose Your Bundle</h3>
+                        <p style="color: #666;">Select from our wide range of product bundles that fit your business needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <div style="font-size: 2em; color: #007bff; margin-bottom: 10px;">2</div>
+                        <h3 style="font-size: 1.5em; color: #333;">Download Instantly</h3>
+                        <p style="color: #666;">Get immediate access to all products and resources in your chosen bundle.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <div style="font-size: 2em; color: #007bff; margin-bottom: 10px;">3</div>
+                        <h3 style="font-size: 1.5em; color: #333;">Start Selling</h3>
+                        <p style="color: #666;">List products on your e-commerce store and start generating sales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" style="padding: 50px 20px; background-color: #ffffff;">
+        <div class="container text-center">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f8f9fa;">
+                        <p style="font-style: italic; color: #666;">“This dropshipping bundle has changed my business! The products are high quality and easy to sell.”</p>
+                        <h5 style="color: #007bff;">John Doe</h5>
+                        <p style="color: #666;">E-commerce Store Owner</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f8f9fa;">
+                        <p style="font-style: italic; color: #666;">“I love how easy it was to get started! The support team is also fantastic.”</p>
+                        <h5 style="color: #007bff;">Jane Smith</h5>
+                        <p style="color: #666;">Online Retailer</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f8f9fa;">
+                        <p style="font-style: italic; color: #666;">“I saw a significant increase in my sales after using this bundle. Highly recommend!”</p>
+                        <h5 style="color: #007bff;">Michael Brown</h5>
+                        <p style="color: #666;">Entrepreneur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+        <!-- Pricing Section -->
+    <section class="pricing-section" style="padding: 50px 20px; background-color: #f8f9fa;">
+        <div class="container text-center">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">Pricing <br>Plans<br></> for website </h2>
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">Basic Plan</h3>
+                        <p style="font-size: 2em; color: #333;">₹2000</p>
+                        <p style="color: #666;">basic wp website</p>
+                        <button class="btn" style="background-color: #007bff; color: white; border-radius: 0;">Choose Plan</button>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">Standard Plan</h3>
+                        <p style="font-size: 2em; color: #333;">₹5000</p>
+                        <p style="color: #666;">full e-commerce website </p>
+                        <button class="btn" style="background-color: #007bff; color: white; border-radius: 0;">Choose Plan</button>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 30px;">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff;">
+                        <h3 style="font-size: 1.5em; color: #007bff;">Premium Plan</h3>
+                        <p style="font-size: 2em; color: #333;">₹10000</p>
+                        <p style="color: #666;">custom wp website </p>
+                        <button class="btn" style="background-color: #007bff; color: white; border-radius: 0;">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faqs-section" style="padding: 50px 20px; background-color: #ffffff;">
+        <div class="container">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 20px; text-align: center;">Frequently Asked Questions</h2>
+            <div style="margin-bottom: 30px;">
+                <h5 style="color: #007bff;">What is dropshipping?</h5>
+                <p style="color: #666;">Dropshipping is a retail fulfillment method where a store doesn't keep the products it sells in stock.</p>
+            </div>
+            <div style="margin-bottom: 30px;">
+                <h5 style="color: #007bff;">How do I get started?</h5>
+                <p style="color: #666;">Simply choose a plan, download the products, and start listing them on your store.</p>
+            </div>
+            <div style="margin-bottom: 30px;">
+                    </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer style="padding: 20px; background-color: #343a40; color: white; text-align: center;">
+        <p style="margin: 0;">&copy; 2024 digiduct. All Rights Reserved.</p>
+        <p style="margin: 0;">Follow us on 
+            <a href="#" style="color: #007bff; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #007bff; text-decoration: none;">Twitter</a>, 
+            <a href="#" style="color: #007bff; text-decoration: none;">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const indicators = document.querySelectorAll('.indicator');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) slide.classList.add('active');
+            });
+
+            indicators.forEach((indicator, i) => {
+                indicator.classList.toggle('active', i === index);
+            });
+
+            currentSlide = index;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function goToSlide(index) {
+            showSlide(index);
+        }
+
+        // Auto slide every 3 seconds
+        setInterval(nextSlide, 3000);
+
+        showSlide(currentSlide);
+    </script>
+
+
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        // Toggle "Show More/Less" links on larger screens
+        const showMore = document.getElementById('show-more');
+        const extraLinks = document.getElementById('extra-links');
+        let expanded = false;
+
+        showMore.addEventListener('click', () => {
+            expanded = !expanded;
+            extraLinks.classList.toggle('d-none', !expanded);
+            showMore.textContent = expanded ? 'Show Less' : 'Show More';
+        });
+    </script>
+</body>
+</html>
